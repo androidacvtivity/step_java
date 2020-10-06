@@ -8,5 +8,6 @@ public class Main {
 	// write your code here
         for (Season s : Season.values())
             System.out.println(s);
+        // commit
     }
 }
