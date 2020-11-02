@@ -18,5 +18,10 @@ public class Operators {
         int sum3 = sum2 + sum2;
 
         System.out.println(sum3);
+
+        int y = 10;
+        y += 5;
+        System.out.println(y);
+
     }
 }
