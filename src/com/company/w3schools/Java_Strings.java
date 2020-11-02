@@ -41,6 +41,22 @@ public class Java_Strings {
         System.out.println(txt6);
 
 
+        int x = 10;
+        int y = 20;
+        int z = x + y;      // z will be 30 (an integer/number)
+
+        System.out.println(z);
+
+        String xs = "10";
+        String ys = "20";
+        String zs = xs + ys;   // z will be 1020 (a String)
+
+        System.out.println(zs);
+
+        String xn = "10";
+        int yn = 20;
+        String zn = xn + yn;   // z will be 1020 (a String)
+        System.out.println(zn);
 
 
     }
