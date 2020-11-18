@@ -10,5 +10,14 @@ public class Loop {
             i++;
         }
 
+        int ii = 0;
+        do {
+            System.out.println(ii);
+            ii++;
+        }
+        while (ii == 5);
+
     }
+
+
 }
