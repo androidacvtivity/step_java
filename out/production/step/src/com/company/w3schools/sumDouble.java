@@ -11,6 +11,19 @@ public class sumDouble {
     }
 
 
+    public static boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+
+
+        if (aSmile && bSmile) {
+            return true;
+        }
+        if (!aSmile && !bSmile) {
+            return true;
+        }
+        return false;
+    }
+
+
     public static int sumDouble(int a, int b) {
         // Store the sum in a local variable
         int sum = a + b;
@@ -31,6 +44,8 @@ public class sumDouble {
         System.out.println(sumDouble(2,2));
 
         System.out.println(sleepIn(false,false));
+
+        System.out.println(monkeyTrouble(false,false));
     }
 
 
