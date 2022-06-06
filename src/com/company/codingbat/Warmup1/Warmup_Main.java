@@ -1,10 +1,13 @@
 package com.company.codingbat.Warmup1;
 
+import static java.lang.System.*;
+
 public class Warmup_Main {
     public static void main(String[] args) {
-        System.out.println("Hello, Warmup- 1 !");
-        System.out.println(sumDouble(2,2));
-        System.out.println("Hello \n" + diff21(22));
+        out.println("Hello, Warmup- 1 !");
+        out.println(sumDouble(2,2));
+        out.println("Hello \n" + diff21(22));
+        out.println("Hello \n" + diff21.diff21(24));
     }
 
 
