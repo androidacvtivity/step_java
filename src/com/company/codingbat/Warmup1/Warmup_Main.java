@@ -4,6 +4,7 @@ public class Warmup_Main {
     public static void main(String[] args) {
         System.out.println("Hello, Warmup- 1 !");
         System.out.println(sumDouble(2,2));
+        System.out.println("Hello \n" + diff21(22));
     }
 
 
@@ -18,5 +19,17 @@ public class Warmup_Main {
         }
         return sum;
     }
+
+
+    public static int diff21(int n) {
+
+        if (n <= 21) {
+            return 21 - n;
+        } else {
+            return (n - 21) * 2;
+        }
+
+    }
+
 
 }
