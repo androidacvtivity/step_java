@@ -1,7 +1,6 @@
 package com.company.codingbat.Warmup1;
 
-import static java.lang.System.*;
-import com.company.codingbat.Warmup1.sumDouble;
+import static java.lang.System.out;
 
 
 public class Warmup_Main {
@@ -11,6 +10,8 @@ public class Warmup_Main {
         out.println("Hello \n" + diff21(22));
         out.println("Hello \n" + diff21.diff21(24));
         out.println(sumDouble.sumDouble(3,3));
+        out.println(parrotTrouble.parrotTrouble(true,6));
+        out.println(parrotTrouble.parrotTrouble(true,7));
 
     }
 
