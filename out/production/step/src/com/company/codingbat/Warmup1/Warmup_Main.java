@@ -12,6 +12,7 @@ public class Warmup_Main {
         out.println(sumDouble.sumDouble(3,3));
         out.println(parrotTrouble.parrotTrouble(true,6));
         out.println(parrotTrouble.parrotTrouble(true,7));
+        out.println(parrotTrouble.parrotTrouble(true,7));
 
         out.println(makes10.makes10_10(9,10));
         out.println(makes10.makes10_10(9,9));
