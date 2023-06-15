@@ -1,19 +1,25 @@
 package com.company.codingbat.Warmup1;
 
+import java.util.Scanner;
+
 public class backAround {
 
     public static void main(String[] args) {
-        String str1 = lastCharToFrontBack("cat");
-        System.out.println(str1); // Output: tcatt
+        Scanner scanner = new Scanner(System.in);
 
-        String str2 = lastCharToFrontBack("hello");
-        System.out.println(str2); // Output: ohelloo
+        System.out.print("Enter a word: ");
+        String input = scanner.nextLine();
 
-        String str3 = lastCharToFrontBack("a");
-        System.out.println(str3); // Output: aa
+        char firstChar = input.charAt(input.length() - 1);
+        int length = input.length();
+        String result = addLastCharToFrontAndBack(input);
+
+        System.out.println("First character: " + firstChar);
+        System.out.println("Length of the word: " + length);
+        System.out.println("New string: " + result);
     }
 
-    public static String lastCharToFrontBack(String str) {
+    public static String addLastCharToFrontAndBack(String str) {
         char lastChar = str.charAt(str.length() - 1);
         return lastChar + str + lastChar;
     }
@@ -22,4 +28,4 @@ public class backAround {
 
 //Given a string, take the last char and return a new string with the last char added at the front and back, so "cat" yields "tcatt".
 // The original string will be length 1 or more.
-//Show first char, show length of the word.  The text must be able to be entered
+//Show last char, show length of the word.  The text must be able to be entered
