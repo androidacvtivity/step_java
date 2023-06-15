@@ -8,7 +8,7 @@ public class backAround {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a word: ");
-        String input = scanner.nextLine();
+        String input = scanner.nextLine().trim();
 
         char firstChar = input.charAt(input.length() - 1);
         int length = input.length();
@@ -19,9 +19,10 @@ public class backAround {
         System.out.println("New string: " + result);
     }
 
-    public static String addLastCharToFrontAndBack(String str) {
-        char lastChar = str.charAt(str.length() - 1);
-        return lastChar + str + lastChar;
+    public static String addLastCharToFrontAndBack(String input) {
+        String firstChar = input.substring(0, 1);
+        String lastChar = input.substring(input.length() - 1);
+        return firstChar + input + firstChar;
     }
 }
 
